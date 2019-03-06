@@ -26,11 +26,11 @@ $("#button1").on('click', question1);
  * Uncomment the code below and solve the problem
  */
 
-	// function question2(){
-	// 	$("replaceMe").replaceMe("replaceMe");
-	// }
+function question2(){
+	$("h2").text("Amani");
+}
 
-	// $("#button1").on('click', question2);
+$("#button1").on('click', question2);
 
 /**
  * Question 3:
