@@ -64,7 +64,11 @@ function question4(){
  * When button 2 is clicked, change the color of all h2's to "green"
  */
 
-
+function question5(){
+	$("h2").css('color','green');
+	}
+	
+	$("#button2").on('click', question5);
 
 /**
  * Question 6:
